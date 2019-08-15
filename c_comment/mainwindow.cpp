@@ -14,9 +14,9 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     setMinimumSize(QSize(700, 300));
     setWindowTitle("C Comment Generator");
-    inputBoxLabel = new QLabel("Original comment:");
+    inputBoxLabel = new QLabel("Comment text:");
     inputBox = new QTextEdit;
-    inputBox->setPlaceholderText("Type unformatted comment here...");
+    inputBox->setPlaceholderText("Type comment text here...");
     inputBox->setTabChangesFocus(true);
     outputBoxLabel = new QLabel("Formatted comment:");
     outputBox = new QTextEdit;
